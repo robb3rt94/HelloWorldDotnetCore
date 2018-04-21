@@ -10,7 +10,7 @@ namespace HelloWorld
             var nome = Console.ReadLine();
             var data = DateTime.Now;
             Console.Write($"\nOlá, {nome}, em {data:d} às {data:t}!");
-            Console.Write("\nAperte alguma tecla para saur...");
+            Console.Write("\nAperte alguma tecla para sair...");
             Console.ReadKey(true);
         }
     }
