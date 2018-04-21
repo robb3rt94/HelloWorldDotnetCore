@@ -6,11 +6,11 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.Write("\nWhat is your name? ");
+            Console.Write("\nQual é o seu nome? ");
             var nome = Console.ReadLine();
-            var date = DateTime.Now;
-            Console.Write($"\nHello, {nome}, on {date:d} at {date:t}!");
-            Console.Write("\nPress any key to exit...");
+            var data = DateTime.Now;
+            Console.Write($"\nOlá, {nome}, em {data:d} às {data:t}!");
+            Console.Write("\nAperte alguma tecla para saur...");
             Console.ReadKey(true);
         }
     }
